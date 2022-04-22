@@ -14,12 +14,12 @@ body {
 }
 
 a {
-  color: #47b2e4;
+  color: #cf2d05;
   text-decoration: none;
 }
 
 a:hover {
-  color: #73c5eb;
+  color: #c53f0a;
   text-decoration: none;
 }
 
@@ -95,7 +95,7 @@ h1, h2, h3, h4, h5, h6 {
   line-height: 0;
 }
 .back-to-top:hover {
-  background: #6bc1e9;
+  background: hwb(12 2% 46%);
   color: #fff;
 }
 .back-to-top.active {
@@ -112,7 +112,7 @@ h1, h2, h3, h4, h5, h6 {
   padding: 15px 0;
 }
 #header.header-scrolled, #header.header-inner-pages {
-  background: rgba(40, 58, 90, 0.9);
+  background: rgba(134, 24, 5, 0.9);
 }
 #header .logo {
   font-size: 30px;
@@ -166,7 +166,7 @@ h1, h2, h3, h4, h5, h6 {
   margin-left: 5px;
 }
 .navbar a:hover, .navbar .active, .navbar .active:focus, .navbar li:hover > a {
-  color: #47b2e4;
+  color: #810505;
 }
 .navbar .getstarted, .navbar .getstarted:focus {
   padding: 8px 20px;
@@ -179,7 +179,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 .navbar .getstarted:hover, .navbar .getstarted:focus:hover {
   color: #fff;
-  background: #31a9e1;
+  background: #850808;
 }
 .navbar .dropdown ul {
   display: block;
@@ -204,13 +204,13 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 14px;
   text-transform: none;
   font-weight: 500;
-  color: #0c3c53;
+  color: #530c0c;
 }
 .navbar .dropdown ul a i {
   font-size: 12px;
 }
 .navbar .dropdown ul a:hover, .navbar .dropdown ul .active:hover, .navbar .dropdown ul li:hover > a {
-  color: #47b2e4;
+  color: #e44747;
 }
 .navbar .dropdown:hover > ul {
   opacity: 1;
@@ -296,7 +296,7 @@ h1, h2, h3, h4, h5, h6 {
   color: #37517e;
 }
 .navbar-mobile a:hover, .navbar-mobile .active, .navbar-mobile li:hover > a {
-  color: #47b2e4;
+  color: #e44747;
 }
 .navbar-mobile .getstarted, .navbar-mobile .getstarted:focus {
   margin: 15px;
@@ -363,10 +363,10 @@ h1, h2, h3, h4, h5, h6 {
   transition: 0.5s;
   margin: 10px 0 0 0;
   color: #fff;
-  background: #47b2e4;
+  background: #e44747;
 }
 #hero .btn-get-started:hover {
-  background: #209dd8;
+  background: #d82020;
 }
 #hero .btn-watch-video {
   font-size: 16px;
@@ -1337,7 +1337,7 @@ section {
   border-radius: 4px;
 }
 .contact .php-email-form input:focus, .contact .php-email-form textarea:focus {
-  border-color: #47b2e4;
+  border-color: #e44747;
 }
 .contact .php-email-form input {
   height: 44px;
@@ -1346,7 +1346,7 @@ section {
   padding: 10px 12px;
 }
 .contact .php-email-form button[type=submit] {
-  background: #47b2e4;
+  background: #e44747;
   border: 0;
   padding: 12px 34px;
   color: #fff;
@@ -1354,7 +1354,7 @@ section {
   border-radius: 50px;
 }
 .contact .php-email-form button[type=submit]:hover {
-  background: #209dd8;
+  background: #d82020;
 }
 @-webkit-keyframes animate-loading {
   0% {
@@ -1390,7 +1390,7 @@ section {
 .breadcrumbs h2 {
   font-size: 28px;
   font-weight: 600;
-  color: #37517e;
+  color: #7e3737;
 }
 .breadcrumbs ol {
   display: flex;
@@ -1406,7 +1406,7 @@ section {
 .breadcrumbs ol li + li::before {
   display: inline-block;
   padding-right: 10px;
-  color: #4668a2;
+  color: #a24646;
   content: "/";
 }
 
@@ -1415,7 +1415,7 @@ section {
 --------------------------------------------------------------*/
 #footer {
   font-size: 14px;
-  background: #37517e;
+  background: #7e3737;
 }
 #footer .footer-newsletter {
   padding: 50px 0;
@@ -1430,7 +1430,7 @@ section {
   padding: 0;
   line-height: 1;
   font-weight: 600;
-  color: #37517e;
+  color: #7e3737;
 }
 #footer .footer-newsletter form {
   margin-top: 30px;
@@ -1478,7 +1478,7 @@ section {
   line-height: 1;
   text-transform: uppercase;
   font-weight: 600;
-  color: #37517e;
+  color: #7e3737;
 }
 #footer .footer-top .footer-contact p {
   font-size: 14px;
@@ -1504,7 +1504,7 @@ section {
 }
 #footer .footer-top .footer-links ul i {
   padding-right: 2px;
-  color: #47b2e4;
+  color: #e44747;
   font-size: 18px;
   line-height: 1;
 }
@@ -1529,7 +1529,7 @@ section {
 #footer .footer-top .social-links a {
   font-size: 18px;
   display: inline-block;
-  background: #47b2e4;
+  background: #e44747;
   color: #fff;
   line-height: 1;
   padding: 8px 0;
@@ -1541,7 +1541,7 @@ section {
   transition: 0.3s;
 }
 #footer .footer-top .social-links a:hover {
-  background: #209dd8;
+  background: #d82020;
   color: #fff;
   text-decoration: none;
 }
