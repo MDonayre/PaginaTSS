@@ -595,6 +595,7 @@ section {
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center center;
+  min-height: 300px;
 }
 .why-us .accordion-list {
   padding: 0 100px 60px 100px;
